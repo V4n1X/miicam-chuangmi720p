@@ -95,7 +95,7 @@ RUN echo "*** Installing composer requirements" \
 
 RUN echo "*** Downloading toolchain"     \
  && mkdir -p /usr/src/arm-linux-3.3      \
- && curl -qs --output /tmp/toolchain.tgz https://fliphess.com/toolchain/Software/Embedded_Linux/source/toolchain_gnueabi-4.4.0_ARMv5TE.tgz
+ && curl -qs --output /tmp/toolchain.tgz https://download946.mediafire.com/83ig61u9xkng/00v7dw4m8oy1awz/toolchain_gnueabi-4.4.0_ARMv5TE.tgz
 
 RUN echo "*** Unpacking Toolchain"       \
  && cd /usr/src/arm-linux-3.3            \
