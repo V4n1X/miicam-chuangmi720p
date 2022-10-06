@@ -2,7 +2,7 @@
     "zlib": {
         "version": "1.2.11",
         "archive": "zlib-1.2.11.tar.gz",
-        "uri": "https://www.zlib.net/zlib-1.2.11.tar.gz",
+        "uri": "https://zlib.net/fossils/zlib-1.2.11.tar.gz",
         "website": "http://zlib.net/"
     },
     "libxml": {
