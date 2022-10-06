@@ -26,14 +26,14 @@ This projects provides an alternate firmware for the Xiaomi Chuangmi 720p IP Cam
 These camera's, based on the Grain Media GM8136S SOC, normally only work using the cloudbased app.
 With this firmware an alternate method of using this webcam is created that does not require an internet uplink.
 
-**Please read the [security considerations](https://miicam.github.io/Security-Considerations).**
+**Please read the [security considerations](https://github.com/V4n1X/miicam-chuangmi720p/blob/master/docs/content/Security-Considerations.md).**
 
-![Camera image](https://github.com/MiiCam/MiiCam/raw/master/web/public/static/images/chuangmi.jpg "Chuangmi 720P camera")
+![Camera image](https://github.com/V4n1X/miicam-chuangmi720p/raw/master/web/public/static/images/chuangmi.jpg "Chuangmi 720P camera")
 
 
 ## Documentation
 
-Tave a look in the documentation for [all the available options and features](https://miicam.github.io).
+Tave a look in the documentation for [all the available options and features](https://github.com/V4n1X/miicam-chuangmi720p/blob/master/docs/content/index.md).
 
 
 ## Installation on the Chuangmi 720P camera
@@ -50,7 +50,7 @@ simply copying the files in the repository to your sd card without building the 
 
 ### Build the binaries
 
-To build the binaries yourself, [have a look at the instructions for building a firmware using docker](https://miicam.github.io/development/How-to-build-the-binaries-for-the-webcam-hack).
+To build the binaries yourself, [have a look at the instructions for building a firmware using docker](https://github.com/V4n1X/miicam-chuangmi720p/blob/master/docs/content/development/How-to-build-the-binaries-for-the-webcam-hack.md).
 
 
 ### Upgrading the binaries
@@ -64,12 +64,12 @@ git pull && ./manage --all
 ## Security considerations
 
 The short version: **DO NOT EVER PUBLICLY EXPOSE THIS WEBCAM TO THE INTERNETZ!**
-The longer version [can be read on its own page](https://miicam.github.io/Security-Considerations).
+The longer version [can be read on its own page](https://github.com/V4n1X/miicam-chuangmi720p/blob/master/docs/content/Security-Considerations.md).
 
 In fact, forget the theme park and **DO NOT USE THIS WEBCAM FIRMWARE AT ALL BECAUSE IT IS BEING SUNSET SOON!**
 
 
 ## Troubleshooting
 
-Please read the [troubleshooting guide](https://miicam.github.io/Troubleshooting) for solving the most common issues.
+Please read the [troubleshooting guide](https://github.com/V4n1X/miicam-chuangmi720p/blob/master/docs/content/Troubleshooting.md) for solving the most common issues.
 
