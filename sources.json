@@ -158,8 +158,8 @@
     "fromdos": {
         "version": "1713",
         "archive": "tofrodos-1713.zip",
-        "uri": "http://tofrodos.sourceforge.net/download/tfd1713.zip",
-        "website": "https://www.thefreecountry.com/tofrodos/"
+        "uri": "https://z3r0.io/toolchain/tfd1713.zip",
+        "website": "https://z3r0.io/toolchain/"
     },
     "jq": {
         "version": "1.6",
