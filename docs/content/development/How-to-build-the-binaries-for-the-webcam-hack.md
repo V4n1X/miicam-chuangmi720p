@@ -7,8 +7,8 @@ You can build the binaries yourself on a computer with docker installed.
 Clone this repository to your local disk:
 
 ```bash
-git clone https://github.com/miicam/MiiCam.git
-cd MiiCam
+git clone https://github.com/V4n1X/miicam-chuangmi720p.git
+mv miicam-chuangmi720 MiiCam && pcd MiiCam
 ```
 
 ## Building using docker
@@ -46,11 +46,11 @@ Have a look at the contents of the `Dockerfile` and `manage.sh` for more informa
 
 ### Download and setup the toolchain
 
-If you are looking for the full sdk file, containing all data sheets, manufacturer pdf's and extended instructions on how to use the gmlib library, download the [full rar sdk files](https://fliphess.com/toolchain/GM8136_SDK_release_v1.0.rar).
+If you are looking for the full sdk file, containing all data sheets, manufacturer pdf's and extended instructions on how to use the gmlib library, download the [full rar sdk files](https://z3r0.io/toolchain/GM8136_SDK_release_v1.0.rar).
 
 To build the binaries only the GM8136 SDK toolchain must be installed in `/usr/src/arm-linux-3.3/toolchain_gnueabi-4.4.0_ARMv5TE`, you don't need the kernel modules, uboot, linux kernel, rootfs and other tools to cross compile the binaries.
 
-You can download the toolchain and other files from [my website](https://fliphess.com/toolchain).
+You can download the toolchain and other files from [my website](https://z3r0.io/toolchain).
 
 
 ### Prepare your environment
@@ -62,7 +62,7 @@ To copy the files in place:
 ```bash
 mkdir -p /usr/src/arm-linux-3.3
 
-URL="https://fliphess.com/toolchain/Software/Embedded_Linux/source/toolchain_gnueabi-4.4.0_ARMv5TE.tgz"
+URL="https://z3r0.io/toolchain/Software/Embedded_Linux/source/toolchain_gnueabi-4.4.0_ARMv5TE.tgz"
 curl -qs --output /tmp/toolchain.tgz ${URL}
 
 cd /usr/src/arm-linux-3.3
