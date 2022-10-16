@@ -3,7 +3,7 @@
         "version": "1.2.11",
         "archive": "zlib-1.2.11.tar.gz",
         "uri": "https://zlib.net/fossils/zlib-1.2.11.tar.gz",
-        "website": "http://zlib.net/"
+        "website": "https://zlib.net/fossils/"
     },
     "libxml": {
         "version": "2.9.10",
@@ -32,8 +32,8 @@
     "pcre": {
         "version": "8.44",
         "archive": "pcre-8.44.zip",
-        "uri": "https://ftp.pcre.org/pub/pcre/pcre-8.44.zip",
-        "website": "https://ftp.pcre.org/pub/pcre/"
+        "uri": "https://ftp.exim.org/pub/pcre/pcre-8.44.zip",
+        "website": "https://ftp.exim.org/pub/pcre/"
     },
     "libpopt": {
         "version": "1.16",
