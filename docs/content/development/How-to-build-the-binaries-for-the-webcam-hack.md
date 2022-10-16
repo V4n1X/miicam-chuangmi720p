@@ -8,7 +8,7 @@ Clone this repository to your local disk:
 
 ```bash
 git clone https://github.com/V4n1X/miicam-chuangmi720p.git
-mv miicam-chuangmi720 MiiCam && cd MiiCam
+mv miicam-chuangmi720p MiiCam && cd MiiCam
 ```
 
 ## Building using docker
