@@ -24,7 +24,7 @@ $(BUILDDIR)/x264: $(SOURCEDIR)/$(X264ARCHIVE)
 	$(call box,"Building x264")
 	@mkdir -p $(BUILDDIR) && rm -rf $@-$(X264VERSION)
 	@tar -xzf $(SOURCEDIR)/$(X264ARCHIVE) -C $(BUILDDIR)
-	@patch $(BUILDDIR)/configure < $(TOPDIR)/endian.patch
+	@patch $(BUILDDIR)/$@-$(X264VERSION)/configure < $(TOPDIR)/endian.patch
 	@cd $@-$(X264VERSION)				\
 	&& $(BUILDENV)						\
 		./configure						\
